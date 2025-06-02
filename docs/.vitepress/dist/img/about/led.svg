@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.2754mm" height="14.958mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 97.72 157.59"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil12 {fill:#B3B3B3}
+    .fil1 {fill:#FBDA55}
+    .fil4 {fill:white}
+    .fil2 {fill:url(#id9)}
+    .fil6 {fill:url(#id10)}
+    .fil5 {fill:url(#id11)}
+    .fil10 {fill:url(#id12)}
+    .fil11 {fill:url(#id13)}
+    .fil8 {fill:url(#id14)}
+    .fil7 {fill:url(#id15)}
+    .fil9 {fill:url(#id16)}
+    .fil3 {fill:url(#id17)}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M24.05 109.46l49.63 0 0 -0.48c0,-9.97 3.8,-19.05 10.04,-25.87l-69.7 0c6.23,6.82 10.04,15.9 10.04,25.87l0 0.48z"/>
+    </clipPath>
+      <mask id="id1">
+  <radialGradient id="id2" gradientUnits="userSpaceOnUse" cx="6.8" cy="66.42" r="0" fx="6.8" fy="66.42">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </radialGradient>
+       <rect style="fill:url(#id2)" x="5.75" y="65.36" width="61.59" height="61.59"/>
+      </mask>
+    <clipPath id="id3">
+     <path d="M73.67 109.46l-49.63 0 0 7.22 49.63 0 0 -7.22z"/>
+    </clipPath>
+      <mask id="id4">
+  <radialGradient id="id5" gradientUnits="userSpaceOnUse" cx="13.46" cy="89.59" r="0" fx="13.46" fy="89.59">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </radialGradient>
+       <rect style="fill:url(#id5)" x="12.41" y="88.54" width="48.29" height="48.29"/>
+      </mask>
+    <clipPath id="id6">
+     <path d="M73.67 116.68l-49.63 0c2.52,2.51 4.11,5.97 4.19,9.79 0,0.1 0,0.2 0,0.3 0,0.1 -0,0.2 -0,0.3l0 0.59c0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.69l0 -0.59c-0,-0.1 -0,-0.2 -0,-0.3 0,-0.1 0,-0.2 0,-0.3 0.08,-3.82 1.67,-7.28 4.19,-9.79z"/>
+    </clipPath>
+      <mask id="id7">
+  <radialGradient id="id8" gradientUnits="userSpaceOnUse" cx="2.38" cy="85.83" r="0" fx="2.38" fy="85.83">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </radialGradient>
+       <rect style="fill:url(#id8)" x="1.32" y="84.78" width="61.59" height="61.59"/>
+      </mask>
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" x1="48.86" y1="82.53" x2="48.86" y2="7.87">
+   <stop offset="0" style="stop-opacity:0; stop-color:#FBDA55"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FFF9AF"/>
+  </linearGradient>
+  <linearGradient id="id10" gradientUnits="userSpaceOnUse" x1="48.86" y1="130.35" x2="48.86" y2="116.68">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E3E3E3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#D6D6D6"/>
+  </linearGradient>
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="48.86" y1="116.68" x2="48.86" y2="109.46">
+  </linearGradient>
+  <linearGradient id="id12" gradientUnits="userSpaceOnUse" x1="28.24" y1="149.4" x2="69.48" y2="149.4">
+   <stop offset="0" style="stop-opacity:1; stop-color:#B3B3B3"/>
+   <stop offset="0.270588" style="stop-opacity:1; stop-color:#E6E6E6"/>
+   <stop offset="0.501961" style="stop-opacity:1; stop-color:#B3B3B3"/>
+   <stop offset="0.74902" style="stop-opacity:1; stop-color:#E6E6E6"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#B3B3B3"/>
+  </linearGradient>
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="48.86" y1="157.59" x2="48.86" y2="152.28">
+  </linearGradient>
+  <linearGradient id="id14" gradientUnits="userSpaceOnUse" xlink:href="#id12" x1="28.24" y1="138.43" x2="69.48" y2="138.43">
+  </linearGradient>
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" xlink:href="#id12" x1="28.24" y1="133.05" x2="69.48" y2="133.05">
+  </linearGradient>
+  <linearGradient id="id16" gradientUnits="userSpaceOnUse" xlink:href="#id12" x1="28.24" y1="143.82" x2="69.48" y2="143.82">
+  </linearGradient>
+  <linearGradient id="id17" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="48.86" y1="109.46" x2="48.86" y2="83.11">
+  </linearGradient>
+ </defs>
+ <g id="圖層_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1835863599440">
+   <path class="fil0" d="M12.93 81.97c6.87,6.93 11.12,16.48 11.12,27.01 0,0.16 -0,0.32 -0,0.48"/>
+   <path class="fil0" d="M24.05 108.98l0 7.7m49.63 0l0 -7.7"/>
+   <path class="fil0" d="M73.68 109.46c-0,-0.16 -0,-0.32 -0,-0.48 0,-10.52 4.24,-20.06 11.1,-26.99"/>
+   <circle class="fil1" cx="48.86" cy="48.86" r="48.86"/>
+   <circle class="fil2" cx="48.86" cy="45.2" r="37.33"/>
+   <path class="fil0" d="M24.05 116.68c2.59,2.58 4.19,6.15 4.19,10.09 0,0.1 -0,0.2 -0,0.3"/>
+   <path class="fil0" d="M58.32 153.53c2.31,-2.92 5.74,-4.91 9.64,-5.33"/>
+   <line class="fil0" x1="38.29" y1="152.28" x2="59.43" y2= "152.28" />
+   <path class="fil0" d="M28.24 126.47l0 1.19c0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.69l0 -1.19"/>
+   <rect class="fil0" x="28.24" y="130.35" width="41.25" height="5.39" rx="20.62" ry="2.07"/>
+   <rect class="fil0" x="28.24" y="135.74" width="41.25" height="5.39" rx="20.62" ry="2.07"/>
+   <rect class="fil0" x="28.24" y="141.13" width="41.25" height="5.39" rx="20.62" ry="2.07"/>
+   <line class="fil0" x1="24.05" y1="116.68" x2="73.67" y2= "116.68" />
+   <line class="fil0" x1="24.05" y1="109.46" x2="73.67" y2= "109.46" />
+   <path class="fil0" d="M29.76 148.2c3.9,0.42 7.34,2.41 9.64,5.33"/>
+   <path class="fil0" d="M59.36 152.28c-2.37,3.22 -6.19,5.31 -10.5,5.31 -4.31,0 -8.13,-2.09 -10.5,-5.31"/>
+   <path class="fil0" d="M67.96 148.2l0.68 0c0.46,0 0.84,-0.38 0.84,-0.84 0,-0.46 -0.38,-0.84 -0.84,-0.84l-39.56 0c-0.46,0 -0.84,0.38 -0.84,0.84 0,0.47 0.38,0.84 0.84,0.84l0.68 0"/>
+   <path class="fil0" d="M69.48 127.07c-0,-0.1 -0,-0.2 -0,-0.3 0,-3.94 1.61,-7.51 4.19,-10.09"/>
+   <path class="fil3" d="M24.05 109.46l49.63 0 0 -0.48c0,-9.97 3.8,-19.05 10.04,-25.87l-69.7 0c6.23,6.82 10.04,15.9 10.04,25.87l0 0.48z"/>
+   <g style="clip-path:url(#id0)">
+    <g>
+     <path id="_1" class="fil4" style="mask:url(#id1)" d="M36.54 66.42c16.43,0 29.74,13.31 29.74,29.74 0,16.43 -13.31,29.74 -29.74,29.74 -16.43,0 -29.74,-13.31 -29.74,-29.74 0,-16.43 13.31,-29.74 29.74,-29.74z"/>
+    </g>
+   </g>
+   <path class="fil0" d="M24.05 109.46l49.63 0 0 -0.48c0,-9.97 3.8,-19.05 10.04,-25.87l-69.7 0c6.23,6.82 10.04,15.9 10.04,25.87l0 0.48z"/>
+   <polygon class="fil5" points="73.67,109.46 24.05,109.46 24.05,116.68 73.67,116.68 "/>
+   <g style="clip-path:url(#id3)">
+    <g>
+     <path id="_1_0" class="fil4" style="mask:url(#id4)" d="M36.56 89.59c12.75,0 23.09,10.34 23.09,23.09 0,12.75 -10.34,23.09 -23.09,23.09 -12.75,0 -23.09,-10.34 -23.09,-23.09 0,-12.75 10.34,-23.09 23.09,-23.09z"/>
+    </g>
+   </g>
+   <polygon class="fil0" points="73.67,109.46 24.05,109.46 24.05,116.68 73.67,116.68 "/>
+   <path class="fil6" d="M73.67 116.68l-49.63 0c2.52,2.51 4.11,5.97 4.19,9.79 0,0.1 0,0.2 0,0.3 0,0.1 -0,0.2 -0,0.3l0 0.59c0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.69l0 -0.59c-0,-0.1 -0,-0.2 -0,-0.3 0,-0.1 0,-0.2 0,-0.3 0.08,-3.82 1.67,-7.28 4.19,-9.79z"/>
+   <g style="clip-path:url(#id6)">
+    <g>
+     <path id="_1_1" class="fil4" style="mask:url(#id7)" d="M32.12 85.83c16.43,0 29.74,13.31 29.74,29.74 0,16.43 -13.32,29.74 -29.74,29.74 -16.43,0 -29.74,-13.32 -29.74,-29.74 0,-16.43 13.31,-29.74 29.74,-29.74z"/>
+    </g>
+   </g>
+   <path class="fil0" d="M73.67 116.68l-49.63 0c2.52,2.51 4.11,5.97 4.19,9.79 0,0.1 0,0.2 0,0.3 0,0.1 -0,0.2 -0,0.3l0 0.59c0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.69l0 -0.59c-0,-0.1 -0,-0.2 -0,-0.3 0,-0.1 0,-0.2 0,-0.3 0.08,-3.82 1.67,-7.28 4.19,-9.79z"/>
+   <path class="fil7" d="M66.79 130.35l-35.86 0c-1.48,0 -2.69,1.21 -2.69,2.7 0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.7 0,-1.48 -1.21,-2.69 -2.69,-2.69z"/>
+   <path class="fil8" d="M66.79 135.74l-35.86 0c-1.48,0 -2.69,1.21 -2.69,2.7 0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.7 0,-1.48 -1.21,-2.69 -2.69,-2.69z"/>
+   <path class="fil9" d="M66.79 141.13l-35.86 0c-1.48,0 -2.69,1.21 -2.69,2.7 0,1.48 1.21,2.69 2.69,2.69l35.86 0c1.48,0 2.69,-1.21 2.69,-2.7 0,-1.48 -1.21,-2.69 -2.69,-2.69z"/>
+   <path class="fil10" d="M66.79 146.52l-35.86 0 -1.85 0c-0.46,0 -0.84,0.38 -0.84,0.84 0,0.47 0.38,0.84 0.84,0.84l0.68 0c3.31,0.35 6.3,1.85 8.53,4.08l0.07 0 21 0 0.07 0c2.24,-2.23 5.22,-3.73 8.53,-4.08l0.68 0c0.46,0 0.84,-0.38 0.84,-0.84 0,-0.46 -0.38,-0.84 -0.84,-0.84l-1.85 0z"/>
+   <path class="fil11" d="M59.36 152.28l-21 0c0.08,0.1 0.15,0.21 0.23,0.31 0.28,0.3 0.56,0.62 0.81,0.94 2.38,2.5 5.73,4.06 9.45,4.06 3.72,0 7.08,-1.56 9.45,-4.06 0.26,-0.33 0.53,-0.64 0.81,-0.94 0.08,-0.1 0.16,-0.2 0.23,-0.31z"/>
+   <rect class="fil12" x="30.93" y="135.54" width="35.86" height="0.41"/>
+   <rect class="fil12" x="30.93" y="140.92" width="35.86" height="0.41"/>
+   <rect class="fil12" x="30.93" y="146.31" width="35.86" height="0.41"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5.1019mm" height="5.1019mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 13.59 13.59"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FD9A23;stroke-width:0.13;stroke-miterlimit:22.9256}
+    .str0 {stroke:#FD9A23;stroke-width:0.13;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil4 {fill:#FFBB22}
+    .fil3 {fill:white}
+    .fil2 {fill:#E6E6E6;fill-opacity:0.749020}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1.99" y1="1.99" x2="11.6" y2="11.6">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F7DB5D"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F89E30"/>
+  </linearGradient>
+ </defs>
+ <g id="圖層_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1835781266208">
+   <rect class="fil0" x="-0" y="0" width="13.59" height="13.59" rx="3.77" ry="3.77"/>
+   <g>
+    <line class="fil1 str0" x1="2.18" y1="6.48" x2="11.41" y2= "6.48" />
+    <path class="fil1 str0" d="M2.18 8.7c3.08,0 6.15,0 9.23,0"/>
+    <line class="fil1 str1" x1="2.77" y1="10.92" x2="10.82" y2= "10.92" />
+   </g>
+   <g>
+    <path class="fil2" d="M2.82 10.95l0.22 -0.11 0.5 -0.26 0.65 -0.33 0.43 -0.22c0.01,-0 0.02,-0.01 0.02,-0.02l0.23 -0.23c0.04,-0.04 0.04,-0.12 -0.02,-0.17l-0.88 -0.88c-0.05,-0.05 -0.13,-0.06 -0.17,-0.02l-0.23 0.23c-0.01,0.01 -0.01,0.01 -0.02,0.02l-0.3 0.58 -0.26 0.5 -0.33 0.65 -0.04 0.07c-0.02,0.05 -0.01,0.11 0.03,0.15 0.04,0.04 0.1,0.06 0.15,0.03z"/>
+    <rect class="fil3" transform="matrix(0.707107 0.707107 -0.707107 0.707107 9.99687 2.52426)" width="1.51" height="9.28" rx="0.24" ry="0.24"/>
+   </g>
+   <path class="fil4" d="M3.75 1.93c0.87,0 1.57,0.7 1.57,1.57 0,0.87 -0.7,1.57 -1.57,1.57 -0.87,0 -1.57,-0.7 -1.57,-1.57 0,-0.87 0.7,-1.57 1.57,-1.57zm0.66 0.88c0.08,-0.08 0.22,-0.08 0.3,0 0.08,0.08 0.08,0.22 -0,0.3l-1.08 1.08c-0.08,0.08 -0.22,0.08 -0.3,-0l-0.54 -0.54c-0.08,-0.08 -0.08,-0.22 0,-0.3 0.08,-0.08 0.22,-0.08 0.3,0l0.39 0.39 0.93 -0.93z"/>
+  </g>
+ </g>
+</svg>

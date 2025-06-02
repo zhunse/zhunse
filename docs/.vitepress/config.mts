@@ -5,6 +5,7 @@ import timeline from "vitepress-markdown-timeline";
 export default defineConfig({
   title: "Mr. Bizarre",
   description: "记录美好生活",
+  base: '/',
   lang: 'zh-Hans',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],

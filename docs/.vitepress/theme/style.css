@@ -190,7 +190,15 @@ p.message img {
   /* 图片与a标签底端对齐 */
   margin-right: 5px;
   /* 图片和链接文字之间的间距 */
+  border-radius: 0px;
+  border: none;
 }
+
+p.message img:hover{
+  border-radius: 0px;
+  border: none;
+}
+
 
 p.copyright a {
   text-decoration: none !important;

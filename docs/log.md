@@ -18,6 +18,10 @@ layout: home
 
 ---
 ::: timeline 2025-05-27
+- 正式使用 Github Action 运行网站
+- 启用CDN加速服务 `本网站由又拍云提供CDN加速/云存储服务`
+:::
+::: timeline 2025-05-27
 - 正式使用 VitePress 作为驱动框架
 :::
 ::: timeline 2023~2025

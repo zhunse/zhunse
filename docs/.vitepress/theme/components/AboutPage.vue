@@ -12,7 +12,8 @@
                         <div class="extra box-about-name"><span>你好，很高兴认识你</span><br />我叫 朱宁宁<br />我来自 陕西汉中</div>
                         <div class="extra box-about-hr-x"></div>
                         <div class="extra box-about-text">
-                            我的专业是 平面设计 我比较精通于 Photoshop 和 CorelDRAW 但是设计灵感往往会使人头疼……<div>后来在网上自学了一些前端编程知识没事就独自一个人坐在电脑前 敲敲敲……</div>
+                            我的专业是 平面设计 我比较精通于 Photoshop 和 CorelDRAW 但是设计灵感往往会使人头疼……<div>后来在网上自学了一些前端编程知识 没事就独自一个人坐在电脑前
+                                敲哇敲哇敲……</div>
                         </div>
                     </div>
                 </div>
@@ -117,10 +118,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="extra box-Photo">
+                <!-- <div class="extra box-Photo">
                     <div class="extra  box-Photo-min">
                         <div class="extra box-Photo-text">2X2<br><span>元素预留位</span></div>
                     </div>
+                </div> -->
+                <div class="extra box-Photo">
+                    <iframe src="https://blog.zhuns.top/qj/me.html"
+                        style="width:100%; height:100%; border:none; overflow:hidden; display:block;border-radius: var(--component-border-radius);"
+                        scrolling="no"></iframe>
                 </div>
                 <div class="extra box-more">
                     <div class="box-more-min">

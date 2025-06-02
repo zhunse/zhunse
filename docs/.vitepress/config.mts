@@ -59,6 +59,10 @@ export default defineConfig({
       </br>
     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51011502000871" target="_blank" rel="noreferrer">
         <img src="../img/anei.png" alt="川公网安备">川公网安备51011502000871号
+    </a>
+      </br>
+    <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noreferrer">
+        本网站由<img src="../img/ypy.png" title="又拍云" alt="又拍云" style="height: 1em;">提供CDN加速/云存储服务
     </a>`,
       copyright: `COPYRIGHT © 2024-${new Date().getFullYear()} & <a href="https://zhuns.top/">进函科技社</a>`
     },

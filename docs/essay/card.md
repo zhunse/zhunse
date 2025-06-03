@@ -217,42 +217,42 @@ layout: home
 
 <CardLayout :cards="[
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],
     link: '/essay/card'
   },
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],
     link: '#'
   },
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],
     link: '#'
   },
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],
     link: '#'
   },
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],
     link: '#'
   },
   {
-    image: '/img/Test.jpg',
+    image: './/img/Test.jpg',
     title: '卡片标题',
     description: '这里是卡片的描述内容',
     tags: ['标签A', '标签B'],

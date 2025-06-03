@@ -31,7 +31,7 @@ export default defineConfig({
     logo: "/favicon.ico",
     nav: [
       { text: '首页', link: '/' },
-      { text: '作品', link: '/work' },
+      { text: '动态', link: '/work' },
       { text: '关于', link: '/about' },
       { text: '日志', link: '/log' }
     ],
@@ -47,7 +47,7 @@ export default defineConfig({
     //     collapsed: false,
     //     items: [
     //       { text: '关于', link: '/about' },
-    //       { text: '作品', link: '/work' }
+    //       { text: '动态', link: '/work' }
     //     ]
     //   }
     // ],
@@ -67,7 +67,22 @@ export default defineConfig({
       copyright: `COPYRIGHT © 2024-${new Date().getFullYear()} & <a href="https://zhuns.top/">进函科技社</a>`
     },
     socialLinks: [
-      // { icon: 'github', link: '' }
+      {
+        icon: {
+          svg: '<img src="/icon/ks.svg" width="55%" color="#808080">'
+        },
+        link: "https://v.kuaishou.com/rpfhY6",
+      },
+      {
+        icon: {
+          svg: '<img src="/icon/wxs.svg" width="65%" color="#808080">'
+        },
+        link: "/wx",
+      },
+      {
+        icon: 'github',
+        link: "https://github.com/zhunse/Wincooa",
+      }
     ]
   }
 })

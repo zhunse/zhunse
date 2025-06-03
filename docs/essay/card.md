@@ -205,7 +205,7 @@ export default {
 
 ```Markdown:line-numbers {1}
 ---
-title: 作品
+title: 动态
 aside: false
 sidebar: false
 layout: home
@@ -213,7 +213,7 @@ layout: home
 
 <br/>
 
-# 作品
+# 动态
 
 <CardLayout :cards="[
   {

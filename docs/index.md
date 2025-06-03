@@ -11,7 +11,7 @@ hero:
     alt: Logo
   actions:
     - theme: brand
-      text: 探索作品
+      text: 探索动态
       link: /work
     - theme: alt
       text: 关于

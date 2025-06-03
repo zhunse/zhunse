@@ -194,7 +194,7 @@ p.message img {
   border: none;
 }
 
-p.message img:hover{
+p.message img:hover {
   border-radius: 0px;
   border: none;
 }
@@ -274,6 +274,9 @@ p.copyright a {
   --vp-extra-border: #80808025 !important;
   --vp-extra-border-hover: #80808040 !important;
   --vp-about-back: #80808015 !important;
+  --vp-c-bg: #181818 !important;
+  --vp-c-bg-alt: #171717 !important;
+  --vp-c-bg-soft: #1d1d1d !important;
 }
 
 /* 浅色 */

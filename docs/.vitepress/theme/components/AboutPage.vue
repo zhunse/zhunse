@@ -124,9 +124,11 @@
                     </div>
                 </div> -->
                 <div class="extra box-Photo">
-                    <iframe src="https://blog.zhuns.top/qj/me.html"
+                    <!-- <iframe src="https://blog.zhuns.top/qj/me.html"
                         style="width:100%; height:100%; border:none; overflow:hidden; display:block;border-radius: var(--component-border-radius);"
-                        scrolling="no"></iframe>
+                        scrolling="no"></iframe> -->
+
+                    <div id="panorama-container" class="panorama-container"></div>
                 </div>
                 <div class="extra box-more">
                     <div class="box-more-min">
@@ -148,10 +150,19 @@ export default {
                 track: null,
                 dots: null,
                 interval: null
-            }
+            },
+            // 全景查看器实例
+            panoramaViewer: null
         }
     },
     async mounted() {
+        // 先加载全景查看器所需的JS库
+        await this.loadPanolensDependencies();
+
+        // 初始化全景查看器
+        this.initPanoramaViewer();
+
+        // 原有功能
         await this.fetchWeiboHot();
         setInterval(this.fetchWeiboHot, 5 * 60 * 1000);
 
@@ -163,8 +174,60 @@ export default {
     beforeUnmount() {
         // 清除轮播图定时器
         clearInterval(this.carousel.interval);
+
+        // 销毁全景查看器
+        if (this.panoramaViewer) {
+            this.panoramaViewer.dispose();
+        }
     },
     methods: {
+        // 加载Panolens依赖
+        loadPanolensDependencies() {
+            return new Promise((resolve) => {
+                // 检查是否已加载
+                if (window.THREE && window.PANOLENS) {
+                    resolve();
+                    return;
+                }
+
+                // 加载Three.js
+                const threeScript = document.createElement('script');
+                threeScript.src = 'https://blog.zhuns.top/qj/js/three.min.js';
+                threeScript.onload = () => {
+                    // 加载Panolens
+                    const panolensScript = document.createElement('script');
+                    panolensScript.src = 'https://blog.zhuns.top/qj/js/panolens.min.js';
+                    panolensScript.onload = resolve;
+                    document.head.appendChild(panolensScript);
+                };
+                document.head.appendChild(threeScript);
+            });
+        },
+
+        // 初始化全景查看器
+        initPanoramaViewer() {
+            // 确保容器存在
+            const container = document.getElementById('panorama-container');
+            if (!container) {
+                console.error('全景容器未找到');
+                return;
+            }
+
+            try {
+                const panorama = new PANOLENS.ImagePanorama('/img/about/sc.jpg');
+                this.panoramaViewer = new PANOLENS.Viewer({
+                    container: container,
+                    output: 'console',
+                    autoRotate: false,
+                    controlBar: true
+                });
+                this.panoramaViewer.add(panorama);
+            } catch (error) {
+                console.error('初始化全景查看器失败:', error);
+            }
+        },
+
+        // 原有方法保持不变
         async fetchWeiboHot() {
             const hotList = document.getElementById('hotList');
             if (!hotList) return;
@@ -200,17 +263,13 @@ export default {
                 console.error('获取微博热搜失败:', error);
             }
         },
-        // 轮播图方法
         initCarousel() {
-            const slideCount = 4; // 4张图片
-
-            // 自动轮播
+            const slideCount = 4;
             this.carousel.interval = setInterval(() => {
                 this.carousel.currentIndex = (this.carousel.currentIndex + 1) % slideCount;
                 this.updateCarousel();
             }, 3000);
 
-            // 点击小圆点切换
             this.carousel.dots.forEach((dot, index) => {
                 dot.addEventListener('click', () => {
                     this.carousel.currentIndex = index;
@@ -218,7 +277,6 @@ export default {
                 });
             });
 
-            // 触摸滑动支持
             this.addSwipeSupport();
         },
         updateCarousel() {
@@ -742,7 +800,28 @@ export default {
     border: 1px var(--component-border) solid;
 }
 
-.box-Photo-min {
+/* 移除全屏样式，改为适应容器 */
+.panorama-container {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+    overflow: hidden;
+    background: var(--vp-about-back);
+    border-radius: var(--component-border-radius);
+    border: none;
+}
+
+/* 保留其他必要样式 */
+.credit {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    color: #fff;
+    z-index: 100;
+}
+
+/* .box-Photo-min {
     position: absolute;
     width: 368px;
     height: 368px;
@@ -759,7 +838,7 @@ export default {
     line-height: 40px;
     font-weight: bold;
     letter-spacing: 2.5px;
-}
+} */
 
 
 .box-more {
@@ -856,6 +935,25 @@ export default {
 
 .carousel-dots span.active {
     background: white;
+}
+
+/* 移除全屏样式，改为适应容器 */
+.panorama-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* 保留其他必要样式 */
+.credit {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    color: #fff;
+    z-index: 100;
 }
 
 @media (max-width: 767px) {

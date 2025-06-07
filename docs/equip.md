@@ -18,7 +18,7 @@ html::-webkit-scrollbar {
 </style>
 
 <EquipmentDisplay 
-    heroImage=".//img/equip/footer_vela_bg_pc.webp"
+    heroImage=".//img/equip/back.webp"
     heroTitle="我的装备库" 
     heroSubtitle="提升生产力的秘密武器"
     :sections="[

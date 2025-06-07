@@ -51,7 +51,7 @@ sidebar: false
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 65vh;
     padding: 20px;
     box-sizing: border-box;
   }

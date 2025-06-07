@@ -75,6 +75,7 @@ const props = defineProps({
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.5);
     transform: scale(1);
+    border: 1px solid var(--vp-extra-border) !important;
 }
 
 .card-link {
@@ -89,20 +90,15 @@ const props = defineProps({
     transform: scale(1.02);
     background: #80808005 !important;
     backdrop-filter: blur(25px) !important;
+    border: 1px solid var(--vp-extra-border-hover) !important;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .card-image {
     height: 200px;
     overflow: hidden;
-    border-radius: 15px 15px 0 0;
-    border: 1px solid var(--vp-extra-border) !important;
-}
 
-.card-image:hover {
-    border: 1px solid var(--vp-extra-border-hover) !important;
 }
-
 
 .card-image img {
     width: 100%;
@@ -117,13 +113,8 @@ const props = defineProps({
     display: flex;
     border-radius: 0 0 15px 15px;
     flex-direction: column;
-    border: 1px solid var(--vp-extra-border) !important;
     background: #80808005 !important;
     backdrop-filter: blur(25px) !important;
-}
-
-.card-content:hover {
-    border: 1px solid var(--vp-extra-border-hover) !important;
 }
 
 .card-title {

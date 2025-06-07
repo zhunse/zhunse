@@ -33,7 +33,14 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '动态', link: '/work' },
       { text: '关于', link: '/about' },
-      { text: '日志', link: '/log' }
+      {
+        text: '其他',
+        items: [
+          { text: '我的装备', link: '/equip' },
+          { text: '关注微信', link: '/wx' },
+          { text: '维护日志', link: '/log' }
+        ]
+      },
     ],
     notFound: {
       title: "页面未找到",
@@ -82,6 +89,12 @@ export default defineConfig({
       {
         icon: 'github',
         link: "https://github.com/zhunse/Wincooa",
+      },
+      {
+        icon: {
+          svg: '<img src="/icon/ugnas.svg" width="55%" color="#808080">'
+        },
+        link: "https://www.ug.link/",
       }
     ]
   }

@@ -3,6 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import CardLayout from './components/CardLayout.vue'
+import EquipmentDisplay from './components/EquipmentDisplay.vue'
 import ThemeToggle from './components/ThemeToggle.vue'
 import AboutPage from './components/AboutPage.vue'
 import "vitepress-markdown-timeline/dist/theme/index.css";
@@ -19,6 +20,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('CardLayout', CardLayout,)
+    app.component('EquipmentDisplay', EquipmentDisplay,)
     app.component('ThemeToggle', ThemeToggle,)
     app.component('AboutPage', AboutPage,)
     // ...

@@ -12,8 +12,8 @@
                         <div class="extra box-about-name"><span>你好，很高兴认识你</span><br />我叫 朱宁宁<br />我来自 陕西汉中</div>
                         <div class="extra box-about-hr-x"></div>
                         <div class="extra box-about-text">
-                            我的专业是 平面设计 我比较精通于 Photoshop 和 CorelDRAW 但是设计灵感往往会使人头疼……<div>后来在网上自学了一些前端编程知识 没事就独自一个人坐在电脑前
-                                敲哇敲哇敲……</div>
+                            我的专业是 平面设计 专业，兴趣爱好就是喜欢研究一些数码产品以及一些电子设备，没事了就敲敲代码，编程都是在网上自学的，经常在网上探索电脑知识，对电脑软件方面有所了解<div>
+                                平时有点社牛 喜欢抽象风格 喜欢玩梗 总而言之，怎么快乐怎么玩呗！</div>
                         </div>
                     </div>
                 </div>
@@ -424,10 +424,10 @@ export default {
     margin: 5px;
     margin-top: 15px;
     color: var(--vp-c-text-2);
-    font-size: 18px;
-    letter-spacing: 1.5px;
+    font-size: 1em;
+    letter-spacing: 1px;
     line-height: 25px;
-    text-indent: 2.25em;
+    text-indent: 2em;
 }
 
 .box-wante {

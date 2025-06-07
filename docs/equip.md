@@ -88,14 +88,15 @@ html::-webkit-scrollbar {
                     link: 'https://item.jd.com/100140008328.html',
                     btnText: '京东商城'
                 },
-                                {
+                {
                     name: '华为智慧屏 SE65 Pro',
                     model: '3GB+16GB',
                     description: '65英寸4K超清屏，鸿蒙系统，92%屏占比，MEMC动态补偿，智能语音控制。',
                     image: './/img/equip/huaweise65pro.png',
                     link: 'https://consumer.huawei.com/cn/visions/',
                     btnText: '详情'
-                },                {
+                }, 
+                {
                     name: '小爱音箱Play 增强版',
                     model: '黑色',
                     description: '内置红外遥控，一句话控制传统家电内置红外遥控，一句话控制传统家电 | LED时钟显示，自适应亮度调节',

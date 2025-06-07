@@ -60,14 +60,18 @@ const props = defineProps({
     transform: scale(1.02);
     background: #80808005 !important;
     backdrop-filter: blur(25px) !important;
-    border: 1px solid var(--vp-extra-border-hover) !important;
+    border: 1px solid var(--vp-extra-border-hover)!important;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.card:hover .card-image{
+    border-bottom: 1px solid var(--vp-extra-border-hover) !important;
 }
 
 .card-image {
     height: 200px;
     overflow: hidden;
-
+    border-bottom: 1px solid var(--vp-extra-border) !important;
 }
 
 .card-image img {

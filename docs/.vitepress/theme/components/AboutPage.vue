@@ -424,7 +424,7 @@ export default {
     margin: 5px;
     margin-top: 15px;
     color: var(--vp-c-text-2);
-    font-size: 1em;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 25px;
     text-indent: 2em;

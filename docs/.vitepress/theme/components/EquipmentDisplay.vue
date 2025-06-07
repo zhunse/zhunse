@@ -152,8 +152,13 @@ const props = defineProps({
     border: 1px solid var(--vp-extra-border-hover) !important;
 }
 
+.equipment-card:hover .card-image {
+    border-bottom: 1px solid var(--vp-extra-border-hover) !important;
+}
+
 .card-image {
     height: 210px;
+    border-bottom: 1px solid var(--vp-extra-border) !important;
 }
 
 .card-image img {

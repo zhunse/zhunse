@@ -47,6 +47,14 @@ sidebar: false
     }
   } */
 
+   html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+html::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Opera */
+}
+
   .qr-container {
     display: flex;
     justify-content: center;

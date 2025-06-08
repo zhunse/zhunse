@@ -8,6 +8,7 @@
             <div class="component-a">
                 <div class="extra box-about">
                     <div class="extra box-about-min">
+                        <div class="extra box-about-kuang"><img src="/img/about/kaoshen.png"></div>
                         <div class="extra box-about-img"></div>
                         <div class="extra box-about-name"><span>你好，很高兴认识你</span><br />我叫 朱宁宁<br />我来自 陕西汉中</div>
                         <div class="extra box-about-hr-x"></div>
@@ -383,7 +384,7 @@ export default {
     padding: 15px;
 }
 
-.box-about-img {
+/* .box-about-img {
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
@@ -391,6 +392,34 @@ export default {
     height: 130px;
     border-radius: var(--component-border-radius);
     border: 1px var(--component-border) solid;
+    background-image: url('/img/about/me.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.box-about-kuang {
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 15px;
+    width: 150px;
+    z-index: 1;
+}
+
+.box-about-kuang img{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -7px;
+    width: 120px;
+}
+
+.box-about-img {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     background-image: url('/img/about/me.gif');
     background-position: center;
     background-size: cover;

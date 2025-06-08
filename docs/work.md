@@ -32,13 +32,13 @@ layout: home
     tags: ['小工具', 'PHP'],
     link: '/essay/livetext'
   },
-  // {
-  //   image: '/img/Test.jpg',
-  //   title: '卡片标题',
-  //   description: '这里是卡片的描述内容',
-  //   tags: ['标签A', '标签B'],
-  //   link: '#'
-  // },
+  {
+    image: './/img/essay/40401.png',
+    title: '汉化Vitepress404页面',
+    description: '找了好久才找到 汉化404页面的方法 分享给大家',
+    tags: ['Vitepress美化', 'Vue'],
+    link: '/essay/404'
+  },
   // {
   //   image: '/img/Test.jpg',
   //   title: '卡片标题',

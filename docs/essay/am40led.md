@@ -428,8 +428,11 @@ sudo systemctl daemon-reload
 
 这里用 `5+APP` 做了一个控制软件
 
-https://zhuns.lanzoub.com/ieast2yntw1c
-密码:0000
+https://zhuns.lanzoub.com/iWorV2ynvv2j
+
+密码:0000  
+
+由于蓝奏云的限制 下载后把后缀的 `.7z` 删掉后安装软件
 
 软件很简单 安装好后 配置好 `局域网地址` 和 `远程地址` 就可以使用了，需要注意的是都要加上 `http://` 或者 `https://` 协议，远程地址没有可以随便填写。远程地址主要就是在没有连接 SMART AM40 下同网络（WiFi）的时候使用，我这里使用的是一个内网穿透服务，监听本地的 `5000` 端口实现远程控制吗，会有一点延迟，但是方便。
 

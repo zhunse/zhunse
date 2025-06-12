@@ -39,13 +39,13 @@ layout: home
     tags: ['Vitepress美化', 'Vue'],
     link: '/essay/404'
   },
-  // {
-  //   image: '/img/Test.jpg',
-  //   title: '卡片标题',
-  //   description: '这里是卡片的描述内容',
-  //   tags: ['标签A', '标签B'],
-  //   link: '#'
-  // },
+  {
+    image: './/img/essay/am4001.png',
+    title: 'SMART AM40 电源指示灯控制',
+    description: 'Web控制电源指示灯 解决晚上睡觉刺眼睛的烦恼',
+    tags: ['工控机', 'Armbian', 'Python3'],
+    link: '/essay/am40led'
+  },
   // {
   //   image: '/img/Test.jpg',
   //   title: '卡片标题',

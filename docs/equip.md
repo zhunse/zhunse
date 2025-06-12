@@ -19,12 +19,12 @@ html::-webkit-scrollbar {
 
 <EquipmentDisplay 
     heroImage=".//img/equip/back.webp"
-    heroTitle="我的装备库" 
+    heroTitle="我的装备" 
     heroSubtitle="提升生产力的秘密武器"
     :sections="[
         {
-            title: '生产力工具',
-            description: '我的生产主力设备组合',
+            title: '主力装备',
+            description: '我的主力设备组合',
             items: [
                 {
                     name: 'Xiaomi 14 Pro',

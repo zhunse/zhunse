@@ -14,6 +14,14 @@ sidebar: false
 
 ![](/img/essay/am4002.jpg)
 
+## 简单方案（推荐）
+
+点击下方链接跳转到 `Github` 查看我的新项目 `AM40-LED-Control` 使用一键部署方案 更快 更便捷
+
+https://github.com/zhunse/AM40-LED-Control
+
+## 手动方案（纯手工）
+
 ## 效果
 ![](/img/essay/am4001.png)
 

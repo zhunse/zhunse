@@ -402,25 +402,28 @@ export default {
     position: absolute;
     padding-top: 0px;
     padding-left: 15px;
-    width: 150px;
+    width: 180px;
     z-index: 1;
 }
 
-.box-about-kuang img{
+.box-about-kuang img {
     position: absolute;
-    margin-top: 3px;
-    margin-left: -7px;
-    width: 120px;
+    margin-top: 0px;
+    margin-left: -12px;
+    width: 130px;
+    /* opacity: 0.2; */
+    /* display: none; */
 }
 
 .box-about-img {
     position: absolute;
-    margin-top: 18px;
-    margin-left: 16px;
-    width: 100px;
-    height: 100px;
+    margin-top: 15px;
+    margin-left: 11px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    background-image: url('/img/about/me.gif');
+    /* background-image: url('/img/about/me.gif'); */
+    background-image: url('https://q.qlogo.cn/g?b=qq&nk=2541704311&s=640');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

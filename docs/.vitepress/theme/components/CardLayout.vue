@@ -9,7 +9,10 @@
                     <h3 class="card-title">{{ card.title }}</h3>
                     <p class="card-description">{{ card.description }}</p>
                     <div class="card-tags">
-                        <span v-for="(tag, tagIndex) in card.tags" :key="tagIndex" class="tag">{{ tag }}</span>
+                        <span v-for="(tag, tagIndex) in card.tags" :key="tagIndex" class="tag"
+                            :class="{ 'tag-featured': tag.includes('置顶') }">
+                            {{ tag }}
+                        </span>
                     </div>
                 </div>
             </a>
@@ -60,11 +63,11 @@ const props = defineProps({
     transform: scale(1.02);
     background: #80808005 !important;
     backdrop-filter: blur(25px) !important;
-    border: 1px solid var(--vp-extra-border-hover)!important;
+    border: 1px solid var(--vp-extra-border-hover) !important;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.card:hover .card-image{
+.card:hover .card-image {
     border-bottom: 1px solid var(--vp-extra-border-hover) !important;
 }
 
@@ -126,6 +129,12 @@ const props = defineProps({
     padding: 1px 10px;
     border-radius: 8px;
     font-size: 10px;
+}
+
+.tag-featured {
+    background: none !important;
+    border: 1px var(--vp-c-brand) solid !important;
+    color: var(--vp-c-brand) !important;
 }
 
 /* 响应式设计 */

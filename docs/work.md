@@ -11,6 +11,13 @@ layout: home
 
 
 <CardLayout :cards="[
+    {
+    image: './/img/essay/look01.png',
+    title: 'LOOK IN MY EYES',
+    description: '近期网络上一个比较火的热梗 在线小玩具',
+    tags: ['置顶','HTML', '在线即玩'],
+    link: 'https://blog.zhuns.top/project/look-in-my-eyes/'
+  },
   {
     image: './/img/essay/card01.png',
     title: 'Vitepress卡片链接组件',
@@ -45,12 +52,5 @@ layout: home
     description: 'Web控制电源指示灯 解决晚上睡觉刺眼睛的烦恼',
     tags: ['工控机', 'Armbian', 'Python3'],
     link: '/essay/am40led'
-  },
-  // {
-  //   image: '/img/Test.jpg',
-  //   title: '卡片标题',
-  //   description: '这里是卡片的描述内容',
-  //   tags: ['标签A', '标签B'],
-  //   link: '#'
-  // }
+  }
 ]" />

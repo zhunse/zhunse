@@ -19,7 +19,7 @@ sidebar: false
       <div class="qr-info-text">
         <div class="qr-info-name">
           进函科技社
-          <a href="/image/about/wx.png" download="进函科技社.png">
+          <a href="/image/about/wx.png" download="微信公众号-进函科技社.png">
             <img src="/image/about/download.svg" alt="下载" title="点击下载二维码" class="qr-download-button">
           </a>
         </div>

@@ -104,7 +104,7 @@
 .VPMenu {
   text-align: center;
   min-width: auto !important;
-  background: var(--vp-c-bg)!important;
+  background: var(--vp-c-bg) !important;
 }
 
 
@@ -312,3 +312,10 @@ p img {
 p img:hover {
   border: 1px var(--vp-extra-border-hover) solid;
 }
+
+/* 主页美化 */
+
+/* .heading,
+.text::after {
+
+} */
